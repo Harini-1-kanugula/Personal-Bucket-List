@@ -43,11 +43,17 @@ h2 {
     display: flex;
     align-items: center;
     color:lightgray;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-family: 'Roboto', sans-serif;
 }
-.bucket-list-items li i:hover{
-    color:rgba(114, 208, 13, 0.581);
+span{
+    font-size: 20px;
+}
+span:hover{
+    color:rgba(54, 117, 9, 0.581);
+}
+.fas:hover{
+    color:hotpink;
 }
 main{
     position: relative;
