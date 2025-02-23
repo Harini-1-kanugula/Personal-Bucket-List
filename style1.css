@@ -55,13 +55,13 @@ span:hover{
 .fas:hover{
     color:hotpink;
 }
-main{
+.abc{
     position: relative;
     left: 350px;
     top: 10px;
     /* border: solid black 2px ; */
 }
-footer{
+.def{
     position: relative;
     left: 850px;
     top: 10px;
@@ -72,7 +72,7 @@ footer{
     body{
         background-color: rgb(129, 9, 9);
     }
-    .bucket-list {
+    /* .bucket-list {
         padding: 1rem;
     }
 
@@ -84,5 +84,10 @@ footer{
     .bucket-list-items li i {
         margin-bottom: 0.5rem;
         margin-right: 0;
+    } */
+    .bucket-list{
+        display: flex;
+        
     }
+
 }
